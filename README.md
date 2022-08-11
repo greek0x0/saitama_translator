@@ -19,7 +19,7 @@ Look at the image below the communication between a victim and the C2 by issuing
 
 ### Saitama Translator
 
-After analyzing Saitama's code, we developed a simple tool (hosted in this repository) capable of translating the messages issued by the invected victim to the C2 server. It may be helpful for those who face Saimanta or variants messages and need to try to discover what data is being sent to the C2.
+After analyzing Saitama's code, we developed a simple tool (hosted in this repository) capable of translating the messages issued by the infected victim to the C2 server. It may be helpful for those who face Saimanta or variants messages and need to try to discover what data is being sent to the C2.
 
 Usage examples:
 1. Passing one FQDN. In this case, the first response from Saitama do C2 after executing the command 'ver' on Windows system:
